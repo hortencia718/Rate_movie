@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding: 0;
+    background-color: #d5d5d5;
     /* font-family: 'ABeeZee', sans-serif; */
 }
 
@@ -8,7 +9,7 @@ body{
 h1, h2 {
     margin-top: 2rem;
     margin-left: 8rem;
-    color:rgba(92, 48, 22, 0.79);
+    color:rgba(103, 48, 17, 0.79);
 }
 
 h3, h4{
@@ -25,7 +26,7 @@ img {
    /* align-content: center; */
     height:36%;
     width: 30%;
-    box-shadow: 7px 7px 5px #988989;
+    box-shadow: 5px 5px 5px #aca7a7;
 }
 
 .movie-container {
@@ -40,6 +41,7 @@ img {
     border-style: solid;
     margin: 50px;
     padding: 10px;
+    float: left;
   
 }
 
@@ -58,15 +60,17 @@ li#movie{
 button.up-vote {
     padding:10px;
     width:fit-content;
-    background-color: rgb(30, 19, 185);
+    background-color: rgb(42, 85, 225);
     color:rgb(255, 255, 249);
     border:none;
+    cursor: pointer;
 }
 
 button, down-vote{
     padding:10px;
     width:fit-content;
-    background-color: rgb(155, 74, 24);
+    background-color: rgb(107, 9, 22);
     color:rgb(255, 255, 249);
     border:none;
+    cursor: pointer;
 }
